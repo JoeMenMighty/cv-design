@@ -1,0 +1,250 @@
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+
+
+body {
+    /* text-align: center; */
+    background-color: white;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 0.5em;
+    border-color: #3D56B2;
+    width: 10%;
+    background-color: white;
+}
+
+h1 {
+    color: #3D56B2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.4rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #3D56B2;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3D56B2;
+}
+
+h5 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #3D56B2;
+
+}
+
+a {
+    color: #14279B;
+    text-decoration: none;
+}
+
+
+/* top section and elements */
+.top-section {
+    height: 40%;
+    background-color: white;
+    color: #3D56B2;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.top-section-text {
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    font-size: 150%;
+}
+
+.cloud-image-top {
+    width: 10%;
+    height: 17%;
+    position: absolute;
+    right: 32%;
+    top: 20%;
+}
+
+.cloud-image-down {
+    width: 10%;
+    height: 17%;
+    display: block;
+    position: absolute;
+    left: 28%;
+    top: 25%;
+}
+
+.mountain-image {
+    width: 50%;
+    height: 30%;
+}
+
+/* Middle section and it's elements */
+.middle-section {
+    background-color: white;
+    position: relative;
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+    
+}
+
+.skill-row {
+    margin-bottom: 2%;
+}
+
+.profile {
+    margin-bottom: 5%;
+}
+
+.profile-image {
+    width: 15%;
+    height: 15%;
+    margin-left: 0;
+    margin-top: 3%;
+}
+
+.description-text {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.skill-row {
+    position: relative;
+
+}
+
+.web-dev-image {
+    position: relative;
+    left: 70%;
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.web-dev-text {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.data-science-image {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.data-science-text {
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+
+.bi-image {
+    position: relative;
+    left: 70%;
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.bi-text {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.contact-me {
+    /* position: relative; */
+    margin-top: 5%;
+    
+}
+
+.contact-image {
+    position: absolute;
+    right: 67%;
+    top: 93%;
+    width: 10%;
+    height: 10%;
+}
+
+.contact-me-text {
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    color: #3D56B2;
+    font-weight: bolder;
+}
+
+.contact-btn {
+    position: relative;
+    display: inline-block;
+    left: 55%;
+    margin-top: 2%;
+
+}
+
+.btn {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3D56B2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #14279B;
+  background-image: -webkit-linear-gradient(top, #14279B, #14279B);
+  background-image: -moz-linear-gradient(top, #14279B, #14279B);
+  background-image: -ms-linear-gradient(top, #14279B, #14279B);
+  background-image: -o-linear-gradient(top, #14279B, #14279B);
+  background-image: linear-gradient(to bottom, #14279B, #14279B);
+  text-decoration: none;
+}
+
+.bottom-section {
+    padding: 2%;
+    text-align: center;
+    background-color: #E6E6E6;
+    color: #3D56B2;
+    height: 50%;
+}
+
+.footer-link {
+    color: #3D56B2;
+    margin: 5%;
+    padding: 5%;
+}
+
+.footer-link:hover{
+    color: #14279B;
+}
+
+.copyright {
+    margin-top: 1% ;
+    padding-top: 1%;
+    font-size: 0.7rem;
+}
